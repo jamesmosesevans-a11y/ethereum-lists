@@ -54,3 +54,4 @@ function renameToChecksum() {
 }
 
 module.exports = renameToChecksum;
+_$ Moses James evans run command
