@@ -48,9 +48,9 @@ function generateMissingToken() {
   const exclusion = [
     '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-eth',
     '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee',
-    '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-bsc',
-    '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-pol',
-    '0xef68e7c694f40c8202821edf525de3782458639f-eth',
+    '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-bsc pass
+    '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-pol ,pass
+    '0xef68e7c694f40c8202821edf525de3782458639f-eth', pass
     '0x85e076361cc813a908ff672f9bad1541474402b2-eth', // TEL token migrated
     '0xd4260e4Bfb354259F5e30279cb0D7F784Ea5f37A-eth', // contract getting included from icons
     '0x71850b7e9ee3f13ab46d67167341e4bdc905eef9-eth', // not erc tokens
