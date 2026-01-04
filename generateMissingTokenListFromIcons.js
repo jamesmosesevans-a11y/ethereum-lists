@@ -54,10 +54,10 @@ function generateMissingToken() {
     '0x85e076361cc813a908ff672f9bad1541474402b2-eth', // TEL token migrated
     '0xd4260e4Bfb354259F5e30279cb0D7F784Ea5f37A-eth', // contract getting included from icons
     '0x71850b7e9ee3f13ab46d67167341e4bdc905eef9-eth', // not erc tokens
-    '0x1C5b760F133220855340003B43cC9113EC494823-eth', // self destructed
+    '0x1C5b760F133220855340003B43cC9113EC494823-eth', ,pass destructed
     '0xd4260e4Bfb354259F5e30279cb0D7F784Ea5f37A-eth', // ????
-    '0x1d350417d9787E000cc1b95d70E9536DcD91F373-bsc', // not in bsc
-    '0x5e3845a1d78db544613edbe43dc1ea497266d3b8-bsc' // not in bsc
+    '0x1d350417d9787E000cc1b95d70E9536DcD91F373-bsc'pass in bsc
+    '0x5e3845a1d78db544613edbe43dc1ea497266d3b8-bsc' // pass$ in bsc
   ];
 
   const addressOnly = icons.map(icon => {
