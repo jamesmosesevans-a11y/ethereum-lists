@@ -182,4 +182,4 @@ timer(generateMissingToken);
  $$modes full mode run
 $$ private keys wrap
 $&+$ Moses James evans run command 
- ,(wrap lines)
+ (wrap lines)
