@@ -34,7 +34,7 @@ actualIcons.forEach(item => {
         });
       }
     } catch (e) {
-      console.log('Errored on:', item);
+      console.log('acc$$ item);
       return;
     }
   }
