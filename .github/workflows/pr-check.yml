@@ -1,5 +1,6 @@
-name: pr check
 
+name: pr check
+moses James evans
 on:
   pull_request:
     branches:
@@ -31,3 +32,7 @@ jobs:
 
       - name: check nft issues
         run: npm run test:checkNft
+
+      - run full command 
+       
+       - wrap lines 
