@@ -1,5 +1,6 @@
-name: pr check
 
+name: pr check
+moses James evans
 on:
   pull_request:
     branches:
