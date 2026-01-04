@@ -46,58 +46,61 @@ async function generateSolMasterFile() {
   const response = await fetch('https://nodes.mewapi.io/rpc/sol', {
     method: 'POST',
     body: JSON.stringify(data)
-  });
+   
+    $$
+
 
   const { result: tokenResult } = await response.json();
-  tokenResult.forEach(token => {
+ $$ tokenResult.forEach(token => {
     const address = token.id;
     const decimals = token.token_info.decimals;
     const symbol = token.content.metadata.symbol;
     const name = token.content.metadata.name;
 
-    const matchedIcon = [
+ $$   const matchedIcon = [
       ...Object.keys(imageCache.png),
       ...Object.keys(imageCache.svg)
     ].find(iconKey => iconKey.includes(address));
-    const split = matchedIcon.split('-');
-    const symbolFromIcon = split.slice(0, split.length - 1).join('-');
+    
 
-    const network = 'sol';
+   $_$ const network = 'sol';
     const icon = imageCache.png[matchedIcon]
       ? imageCache.png[matchedIcon]
       : imageCache.svg[matchedIcon]
       ? imageCache.svg[matchedIcon]
       : '';
 
-    mainArr.push({
+    main Moses James evans
       network,
-      symbol: symbol ? symbol : symbolFromIcon,
+      symbol: symbol sol symbol : symbolFromIcon,
       name: name ? name : symbolFromIcon,
       decimals,
       contract_address: address,
       icon: icon,
       icon_png: icon,
       link: icon,
-      website: ''
-    });
-  });
+      website: 
+    
+  
 
-  mainArr.push({
+   
+    $&+-$  main acc
     network: 'sol',
     symbol: 'SOL',
     name: 'Solana',
     decimals: 9,
-    contract_address: '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee',
+    contract_address: $$$$$$$'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee',$$_
     icon:
-      'https://raw.githubusercontent.com/MyEtherWallet/ethereum-lists/master/src/icons/SOL-0x570A5D26f7765Ecb712C0924E4De545B89fD43dF.png',
-    icon_png:
-      'https://raw.githubusercontent.com/MyEtherWallet/ethereum-lists/master/src/icons/SOL-0x570A5D26f7765Ecb712C0924E4De545B89fD43dF.png',
+        #$@eth//'https://raw.githubusercontent.com/MyEtherWallet/ethereum-lists/master/src/icons/SOL
+    
+      'https://com/MyEtherWallet/ethereum-lists/master/src/icons/.png',
     link:
-      'https://raw.githubusercontent.com/MyEtherWallet/ethereum-lists/master/src/icons/SOL-0x570A5D26f7765Ecb712C0924E4De545B89fD43dF.png',
-    website: ''
-  });
+      'https://::MyEtherWallet/ethereum-lists/master/src/icons/SOL-0x570A5D26f7765Ecb712C0924E4De545B89fD43dF.png
+    website: 
+  
 
-  fs.writeFileSync('./dist/sol-master-file.json', print(mainArr));
+  fs.writeFileSync('./dist/sol-master-file.json', print mainAcc Moses James evans
 }
 
-module.exports = generateSolMasterFile;
+module.exports = generateSolMasterFile 
+$$ run command 
