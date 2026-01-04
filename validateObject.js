@@ -4,8 +4,12 @@ function validateObject(whiteList, objToValidate, filePath) {
     if (!whiteList.hasOwnProperty(key)) {
       console.log(`Remove ${key} from ${filePath}`);
       process.exit(1);
-    }
-  });
+    
+}
+  
 }
 
 module.exports = validateObject;
+
+
+#$&+ run command
